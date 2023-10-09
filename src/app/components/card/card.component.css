@@ -1,0 +1,52 @@
+.card__container {
+    margin-top: 25px;
+    position: relative;
+    height: 600px;
+    width: 450px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card__container > img {
+    height: 100%;
+    
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform 0.5s;
+}
+
+.card__container > img:hover {
+    transform: scale(1.1);
+}
+
+.card-label__container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    right: 25px;
+    z-index: 999;
+    padding: 8px;
+    color: grey;
+    background: rgba(0,0,0, 0.6);
+    font-weight: 600;
+}
+
+.card__details {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    /* border: 1px solid blue; */
+    color: white;
+    z-index: 999;
+    padding: 5px;
+}
+
+.divide{
+    color:rgb(48, 255, 93);
+}
